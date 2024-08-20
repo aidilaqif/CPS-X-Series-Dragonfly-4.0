@@ -14,6 +14,7 @@ import time
 #     print("Error opening video stream or file")
 #     exit() # Exit if camera cannot be opened
 
+# video variable
 cam = cv2.VideoCapture(0)
 
 # window reflected when camera is true
